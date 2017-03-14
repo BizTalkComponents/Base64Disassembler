@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BizTalkComponents.PipelineComponents.Base64Disassembler</id>
+    <version>$version$</version>
+    <authors>Robin Hultman</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/BizTalkComponents/Base64Disassembler</projectUrl>
+    <description>PipelineComponent that creates a new message from a base64 string.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>BizTalk</tags>
+  </metadata>
+</package>
