@@ -38,6 +38,14 @@
   <ItemGroup>
     <Reference Include="Microsoft.BizTalk.GlobalPropertySchemas, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.BizTalk.Pipeline, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.BizTalk.Streaming, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft BizTalk Server 2016\Microsoft.BizTalk.Streaming.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.BizTalk.XPathReader, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.BizTalk.XPathReader\v4.0_3.0.1.0__31bf3856ad364e35\Microsoft.BizTalk.XPathReader.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.XLANGs.BaseTypes, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -56,10 +64,11 @@
     <Compile Include="BiztalkComponents.Utils\PropertyBagHelper.cs" />
     <Compile Include="BiztalkComponents.Utils\RequiredRuntimeAttribute.cs" />
     <Compile Include="BiztalkComponents.Utils\ValidationHelper.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="Base64Disassembler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base64Disassembler.Component.cs" />
     <None Include="BizTalkComponents.PipelineComponents.Base64Disassembler.snk" />
     <None Include="packages.config" />
   </ItemGroup>
